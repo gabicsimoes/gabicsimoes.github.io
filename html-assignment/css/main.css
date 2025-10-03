@@ -28,4 +28,6 @@ nav ul {
 
 nav a {
     text-decoration: none;
+    background-color: darksalmon;
+    border: 2px dotted;
 }
