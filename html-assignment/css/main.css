@@ -31,3 +31,7 @@ nav a {
     background-color: darksalmon;
     border: 2px dotted;
 }
+
+nav a:hover {
+    background-color: lightskyblue;
+}
