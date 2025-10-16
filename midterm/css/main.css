@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     color: rgb(21, 22, 22);
     /* I set this color ramdonly just to do not be jetblack */
-    background-color: #aad4cf;
+    background-color: #4caca0;
 }
 
 .wrapper {
@@ -13,7 +13,7 @@ body {
 .container {
     width: min(960px, 92vw);
     margin: 0 auto;
-    background: #fff;
+    background: #aad4cf;
     border-radius: 0px;
     box-shadow: 0 6px 24px rgb(0,0,0,.08);
     overflow: hidden;
@@ -45,7 +45,7 @@ body {
 }
 
 nav {
-    background: #b8dfda;
+    background: #aad4cf;
     text-align: center;
 }
 
@@ -72,4 +72,15 @@ nav a {
     color: black;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+main {
+    padding: 1.25rem 1.5rem 2rem;
+}
+
+.story-image {
+    float: left;
+    width: min(220px, 40%);
+    height: auto;
+    margin: 0 .9rem .5rem 0;
 }
