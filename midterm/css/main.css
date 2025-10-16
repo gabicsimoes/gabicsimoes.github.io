@@ -68,7 +68,7 @@ nav li:last-child {
 nav a {
     display: inline-block;
     text-decoration: none;
-    padding: 10px 50px;
+    padding: 10px 90px;
     color: black;
     text-transform: uppercase;
     font-weight: bold;
@@ -84,4 +84,37 @@ main {
     width: min(220px, 40%);
     height: auto;
     margin: 0 .9rem .5rem 0;
+}
+
+.form {
+    margin-top: .5rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background: #aad4cf;
+}
+
+.form-row {
+    display: grid;
+    gap: .4rem;
+    margin-bottom: .9rem;
+}
+
+label {
+    font-weight: 600;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 3px 3px;
+    border: 1px solid grey;
+}
+
+.button {
+    border: 1px solid black;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.footerside {
+    float: right;
 }
