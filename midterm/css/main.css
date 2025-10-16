@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     color: rgb(21, 22, 22);
+    /* I set this color ramdonly just to do not be jetblack */
     background-color: #aad4cf;
 }
 
@@ -13,7 +14,62 @@ body {
     width: min(960px, 92vw);
     margin: 0 auto;
     background: #fff;
-    border-radius: 8px;
+    border-radius: 0px;
     box-shadow: 0 6px 24px rgb(0,0,0,.08);
     overflow: hidden;
+}
+
+.site-header {
+    position: relative;
+}
+
+.wide-image {
+    display: block;
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    filter: saturate(.95);
+}
+
+/* position absolute helps to put the text on top of the image without moving, also padding-top is how low or high the text is */
+.site-title {
+    position: absolute;
+    inset: 0 0 auto 0;
+    margin: 0;
+    padding-top: 130px;
+    text-align: center;
+    font-size: clamp(35px, 5vw, 56px);
+    font-weight: 500;
+    color: #f5ffff;
+    text-shadow: 0 2px 10px rgba(0,0,0,.35);
+}
+
+nav {
+    background: #b8dfda;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    border-right: 1px solid black;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+/* this nav for a change the names home, story and contact and padding helps to give some space between words, things looks more "balanced" */
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 50px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
 }
