@@ -113,6 +113,7 @@ input[type="text"], input[type="email"], textarea {
     border: 1px solid black;
     padding: 5px;
     text-transform: uppercase;
+    background-color: #aad4cf;
 }
 
 .footerside {
