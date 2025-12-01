@@ -46,7 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* above that was a css reset */
 
+/* styling css layout*/
 body{
     margin: 2px;
     font-family: "Open Sans", sans-serif;
@@ -54,3 +56,39 @@ body{
     color: #222;
 }
 
+header{
+    background-color: #c78c06;
+    color: white;
+}
+
+.site-header{
+    background-color: #c78c06;
+    color: #222;
+    padding: 0.5rem 1rem;
+}
+
+.site-header img{
+    width: 80px;
+    height: auto;
+}
+
+nav{
+    background-color: #222;
+    color: #c78c06;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a{
+    color: #c78c06;
+    text-decoration: none;
+    font-weight: 500;
+}
