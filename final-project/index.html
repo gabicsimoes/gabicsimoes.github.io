@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <!-- add search icon -->
-     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search">
-     <!-- add arrow right for the buttons -->
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_right">
+    <!-- add search icon and arrow right icon -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Final Project</title>
     <!-- add font type from google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,9 +28,12 @@
                     <li><a href="contact">Contact</a></li>
                 </ul>
                 <!-- add search tab and the icon for it. should be a button? -->
-                <label for="search"></label>
+                <div class="searchbar">
                 <input type="search" id="search" name="search" placeholder="Search">
-                <span class="material-symbols-outlined">search</span>
+                <button type="submit" class="search-icon">
+                    <span class="material-symbols-outlined">search</span>
+                </button>
+                </div>
             </nav>
         </div>
     </header>
@@ -47,8 +48,7 @@
                 <!-- paragraph for lorem behind the title -->
                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At harum perspiciatis aperiam molestias reiciendis sapiente dignissimos id vel dolores qui exercitationem sunt a laborum veritatis atque, quo earum maxime illum.</p>
                  <!-- this is a future button -->
-                 <a href="connect">Connect with us</a>
-                 <span class="material-symbols-outlined">arrow_right</span>
+                 <a href="connect" class="buttonarrow">Connect with us <span class="material-symbols-outlined">arrow_right</span></a>
             </div>
         </section>
         <!-- doing the about us section of the website -->
@@ -148,26 +148,31 @@
                 </div>
             </article>
           </section>
+
           <!-- New section for Contact Us part -->
           <section id="contact" class="contact">
             <h2 id="contact-title">Contact Us</h2>
             <h3 id="contact-message">Send us a message</h3>
-            <div class="form">
+
+            <form class="form" action="#" method="post">
                 <div class="form-row1">
                     <label for="full-name">Full Name</label>
                     <input type="text" name="full-name" id="full-name">
                 </div>
+
                 <div class="form-row2">
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email">
                 </div>
+
                 <div class="form-row3">
                     <label for="message">Message</label>
                     <textarea name="message" id="message"></textarea>
                 </div>
                 <button type="submit">Send</button>
-            </div>
+            </form>
           </section>
+
           <!-- New section for Hours of Operation which is a table-->
            <section id="hours" class="hours">
             <h3 id="hoursofoperation">Hours of operation</h3>
