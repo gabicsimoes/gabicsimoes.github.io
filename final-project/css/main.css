@@ -141,4 +141,58 @@ nav ul li:not(:first-child) a{
 
 /* Now I'm moving on to the next part, which is when starts the 1st image */
 /* Welcome Section */
- 
+ #welcome{
+    position: relative;
+    margin: 0 0 2.5rem;
+ }
+
+ #welcome img{
+    width: 100%;
+    display: block;
+ }
+
+ .welcome-text{
+    position: absolute;
+    bottom: 16%;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    padding: 20px 24px;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;  
+ }
+
+ .welcome-text h1{
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-bottom: 1rem;
+ }
+
+ .welcome-text p{
+    margin-bottom: 1.5rem;
+ }
+
+ .welcome-text .buttonarrow{
+    background-color: #c78c06;
+    color: #222;
+    padding: 24px 12px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.2rem;
+ }
+
+.welcome-text .material-symbols-outlined{
+    font-size: 3rem;
+    line-height: 1;
+}
+
+ #welcome{
+    margin-bottom: 0;
+ }
+
+ #about{
+    margin-top: 0;
+ }
