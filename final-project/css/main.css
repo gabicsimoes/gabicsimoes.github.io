@@ -212,7 +212,7 @@ nav ul li:not(:first-child) a{
  }
 
 .about-text h2{
-    font-size: 3rem;
+    font-size: 2.6rem;
     font-weight: 700;
     color: black;
     margin-bottom: 16px;
@@ -224,3 +224,86 @@ nav ul li:not(:first-child) a{
     line-height: 1.5;
 }
 
+/* Starting Our Services */
+#services{
+    background-color: white;
+    padding: 24px 16px 24px;
+    margin: 0;
+}
+
+#services h2{
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.service1,
+.service2,
+.service3,
+.service4,
+.service5{
+    background-color: white;
+    margin-bottom: 16px;
+}
+
+#services img{
+    width: 100%;
+    display: block;
+}
+
+.service-digital,
+.service-marketing,
+.service-video,
+.service-web,
+.service-print{
+    padding: 16px;
+    background-color: #ffe6ac;
+}
+
+.service-digital h3,
+.service-marketing h3,
+.service-video h3,
+.service-web h3,
+.service-print h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.service-digital p,
+.service-marketing p,
+.service-video p,
+.service-web p,
+.service-print p{
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.service-digital a,
+.service-marketing a,
+.service-video a,
+.service-web a,
+.service-print a{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 22px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.service-digital .material-symbols-outlined,
+.service-marketing .material-symbols-outlined,
+.service-video .material-symbols-outlined,
+.service-web .material-symbols-outlined,
+.service-print .material-symbols-outlined{
+    font-size: 2rem;
+    color: white;
+}
+
+/* Our Vision Part */
