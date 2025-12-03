@@ -153,7 +153,7 @@ nav ul li:not(:first-child) a{
 
  .welcome-text{
     position: absolute;
-    bottom: 16%;
+    bottom: 7%;
     left: 0;
     right: 0;
     max-width: 100%;
@@ -187,6 +187,7 @@ nav ul li:not(:first-child) a{
 .welcome-text .material-symbols-outlined{
     font-size: 3rem;
     line-height: 1;
+    color: black;
 }
 
  #welcome{
@@ -196,3 +197,30 @@ nav ul li:not(:first-child) a{
  #about{
     margin-top: 0;
  }
+
+ /* Moving foward to About Us part */
+ #about{
+    background-color: #ffe6ac;
+    padding: 16px 16px 24px;
+    margin: 0;
+ }
+
+.about-image img{
+    width: 100%;
+    display: block;
+    margin-bottom: 16px;
+ }
+
+.about-text h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.about-text p{
+    color: black;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
