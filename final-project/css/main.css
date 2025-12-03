@@ -357,3 +357,90 @@ nav ul li:not(:first-child) a{
     font-size: 2rem;
 }
 
+/* Starting Our Team part */
+#team{
+    background-color: white;
+    padding: 24px 16px 24px;
+    margin: 0;
+}
+
+#team h2{
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 16px;
+}
+
+/* Styling Member 1 = John Doe */
+.team-member1{
+    background-color: #ffe6ac;
+    margin-bottom: 16px;
+}
+
+.team-member1 img{
+    width: 100%;
+    display: block;
+}
+
+.member1-content{
+    padding: 16px;
+}
+
+.member1-content h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 4px;
+}
+
+/* p:nth-of-type(1) and (2) means the first and second child from the paragraph */
+.member1-content p:nth-of-type(1){
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.member1-content p:nth-of-type(2){
+    border-top: 2px solid #c78c06;
+    padding-top: 10px;
+    margin-top: 6px;
+    color: black;
+    line-height: 1.5;
+}
+
+/* Styling Member 2 = Bob Rite */
+.team-member2{
+    background-color: #ffe6ac;
+    margin-bottom: 16px;
+}
+
+.team-member2 img{
+    width: 100%;
+    display: block;
+}
+
+.member2-content{
+    padding: 16px;
+}
+
+.member2-content h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 4px;
+}
+
+/* p:nth-of-type(1) and (2) means the first and second child from the paragraph */
+.member2-content p:nth-of-type(1){
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.member2-content p:nth-of-type(2){
+    border-top: 2px solid #c78c06;
+    padding-top: 10px;
+    margin-top: 6px;
+    color: black;
+    line-height: 1.5;
+}
