@@ -506,3 +506,40 @@ nav ul li:not(:first-child) a{
     background-color: #c78c06;
     color: #222;
 }
+
+/* Starting Hours of Operation table */
+#hours{
+    background-color: white;
+    padding: 24px 16px;
+    margin: 0;
+}
+
+#hoursofoperation{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 16px;
+}
+
+/* Start styling the table properly */
+#hours table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+#hours thead th{
+    background-color: #ffe6ac;
+    color: black;
+    font-weight: normal;
+    text-align: center;
+    padding: 14px 10px;
+    border: 1px solid #222;
+}
+
+#hours tbody td{
+    border: 1px solid #222;
+    padding: 14px 10px;
+    color: black;
+    text-align: left;
+}
