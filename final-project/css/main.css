@@ -562,3 +562,22 @@ nav ul li:not(:first-child) a{
     width: 100%;
     display: block;
 }
+
+/* Last Part for MOBILE VERSION = Footer */
+/* Footer part */
+footer{
+    background-color: #222;
+    padding: 24px 16px 20px;
+    color: #c78c06;
+    font-size: 1rem;
+    line-height: 2.5;
+}
+
+footer a{
+    color: #c78c06;
+}
+
+footer a:hover{
+    opacity: 0.8;
+}
+
