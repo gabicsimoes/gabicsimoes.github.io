@@ -444,3 +444,65 @@ nav ul li:not(:first-child) a{
     color: black;
     line-height: 1.5;
 }
+
+/* Contact Us part */
+#contact{
+    background-color: white;
+    padding: 24px 16px 32px;
+    margin: 0;
+}
+
+#contact-title{
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 16px;
+}
+
+#contact-message{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 14px;
+}
+
+#contact label{
+    display: block;
+    font-size: 1rem;
+    color: black;
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+
+#contact input,
+#contact textarea{
+    width: 100%;
+    padding: 4px;
+    border: 1.5px solid #ccc;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-bottom: 6px;
+    font-family: inherit;
+}
+
+#contact textarea{
+    height: 140px;
+    resize: vertical;
+}
+
+#contact button{
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    background-color: #222;
+    color: #c78c06;
+    font-size: 1.1rem;
+    font-weight: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#contact button:hover{
+    background-color: #c78c06;
+    color: #222;
+}
