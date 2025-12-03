@@ -581,3 +581,9 @@ footer a:hover{
     opacity: 0.8;
 }
 
+/* Everything above was MOBILE Version. Because Mobile is always first for Media Query */
+
+/* NOW */
+/* Everything under is Media Query for maximum width of the container is 1200px and min-width media query for the screen size of 760px and above*/
+
+/* Media Query for 760px and above */
