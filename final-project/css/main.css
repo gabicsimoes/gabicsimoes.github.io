@@ -584,6 +584,95 @@ footer a:hover{
 /* Everything above was MOBILE Version. Because Mobile is always first for Media Query */
 
 /* NOW */
-/* Everything under is Media Query for maximum width of the container is 1200px and min-width media query for the screen size of 760px and above*/
+/* Everything under is a container with maximum width of 1200px and Media Query with min-width for the screen size of 760px and above*/
+
+/* Container maximum width 1200px */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 /* Media Query for 760px and above */
+/* Header, Navigation and Search */
+@media (min-width:760px){
+
+    header{
+        background-color: #222;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 40px;
+    }
+
+    .site-header{
+        padding: 8px;
+        display: inline-block;
+    }
+
+    .site-header img{
+        max-width: 90px;
+    }
+
+    nav{
+        background-color: transparent;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex: 1;
+    }
+
+    nav ul{
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 32px;
+        margin-left: 40px;
+    }
+
+    nav ul li:first-child{
+        width: auto;
+        margin-top: 0;
+        padding: 10px 30px;
+        background-color: #c78c06;
+    }
+
+    nav ul li:not(:first-child){
+        padding: 0;
+    }
+
+    .site-search{
+        padding: 0;
+        margin-left: auto;
+        max-width: 320px;
+    }
+
+    /* Welcome part */
+    #welcome{
+        position: relative;
+        height: 500px;
+        /* overflow: hidden;
+        margin: 0; */
+    }
+
+    #welcome img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .welcome-text{
+        position: absolute;
+        top: 8%;
+        left: 5%;
+        right: 5%;
+        max-width: 100%;
+        color: white;
+        padding: 20px 24px;
+    }
+
+    .welcome-text h1{
+        font-size: 4rem;
+        line-height: 1.5;
+    }
+}
