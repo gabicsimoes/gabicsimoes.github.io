@@ -793,4 +793,57 @@ footer a:hover{
   .member2-content{
     grid-row: 1;
   }
+
+  /* Contact Us part on the left side */
+  .contact{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    /* display: grid; */
+    grid-template-columns: 1fr;
+    gap: 16px;
+    align-items: start;
+  }
+
+  #contact-title{
+    margin-bottom: 8px;
+  }
+
+  #contact-message{
+    margin-top: 0;
+  }
+
+  .form{
+    grid-column: 1;
+    grid-row: 3;
+  }
+  /* Location in the right side */
+  .contact-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+
+  .contact{
+    grid-column: 1;
+  }
+
+  #location{
+    grid-column: 2;
+    grid-row: -1/3;
+  }
+
+  #location iframe{
+    width: 100%;
+    height: 400px;
+    border: none;
+  }
+/* Hours as the last thing of the page before footer */
+  .hours{
+    grid-column: 1 / span 2;
+    margin-top: 32px;
+  }
 }
