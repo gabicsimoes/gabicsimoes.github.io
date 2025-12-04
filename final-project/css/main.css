@@ -44,13 +44,13 @@ header{
 
 /* After I'll add some details such as the golden part from the Logo to Home word */
 .site-header{
-    background-color: #222;
+    background-color: #c78c06;
     padding: 16px;
 }
 
 /* Logo size */
 .site-header img{
-    width: 100px; 
+    width: 120px; 
 }
 
 /* Starting the menu of navigation: home, about, etc... */
@@ -74,7 +74,7 @@ nav ul{
 }
 
 nav a{
-    font-weight: 400;
+    font-weight: normal;
     text-decoration: none;
 }
 
@@ -83,15 +83,15 @@ nav ul li:first-child{
     width: 100%;
     background-color: #c78c06;
     text-align: center;
-    padding: 16px 0;
+    padding: 14px 0;
     margin-top: 0;
     border-top: none;
 }
 
 nav ul li:first-child a{
-    background-color: #c78c06;
+    /* background-color: #c78c06; */
     color: #222;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 /* "not(:first-child)" means every child except the fisrt one */
@@ -110,13 +110,13 @@ nav ul li:not(:first-child) a{
     display: flex;
     margin: 0;
     /* fix this padding because the space in the botton is not this big */
-    padding: 0 16px 0;
+    padding: 0 16px 16px;
 }
 
 /* Doing Search Input = Search Bar properly */
 .site-search input[type="search"]{
     flex: 1;
-    padding: 8px;
+    padding: 10px;
     border: 1.5px solid #ccc;
     border-radius: 3px;
     font-size: 1rem;
@@ -143,7 +143,7 @@ nav ul li:not(:first-child) a{
 /* Welcome Section */
  #welcome{
     position: relative;
-    margin: 0 0 2.5rem;
+    margin: 0 0 0rem;
  }
 
  #welcome img{
@@ -151,19 +151,26 @@ nav ul li:not(:first-child) a{
     display: block;
  }
 
+ .welcomeoverlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 1;
+ }
+
  .welcome-text{
     position: absolute;
-    bottom: 7%;
+    bottom: 12%;
     left: 0;
     right: 0;
-    max-width: 100%;
+    max-width: 80%;
     padding: 20px 24px;
-    background-color: rgba(0, 0, 0, 0.65);
     color: white;  
+    z-index: 2;
  }
 
  .welcome-text h1{
-    font-size: 4rem;
+    font-size: 2.6rem;
     line-height: 1.5;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -659,6 +666,11 @@ footer a:hover{
         height: 100%;
         object-fit: cover;
         display: block;
+    }
+
+    .welcomeoverlay{
+        inset: 50px 20px;
+        background-color: rgba(0, 0, 0, 0.55);
     }
 
     .welcome-text{
